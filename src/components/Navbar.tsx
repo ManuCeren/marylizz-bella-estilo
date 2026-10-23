@@ -54,7 +54,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center gap-3">
         <div className="flex items-center gap-3">
           <img src="/images/logo.png" alt="Logo Marylizz" className="h-12 w-12 object-contain" />
-          <h1 className="text-2xl font-bold text-pink-600">Marylizz</h1>
+          <span className="text-2xl font-bold text-pink-600">Marylizz</span>
         </div>
         <ul className="hidden xl:flex gap-8 font-semibold text-gray-800">
           {renderOpciones()}
