@@ -18,6 +18,7 @@ export default function ProductosSection() {
               key={producto.id}
               nombre={producto.nombre}
               precio={producto.precio}
+              imagen={producto.imagen}
             />
           ))}
         </div>
