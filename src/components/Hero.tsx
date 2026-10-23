@@ -3,20 +3,11 @@
 import { GiLipstick, GiEyelashes } from "react-icons/gi";
 import { PiHairDryer } from "react-icons/pi";
 import { FaWhatsapp } from "react-icons/fa";
-
-const abrirWhatsApp = () => {
-  const mensaje =
-    "Hola Marylizz Bella Estilo, me gustaría agendar una cita para uno de sus servicios.";
-
-  window.open(
-    `https://wa.me/50379699364?text=${encodeURIComponent(mensaje)}`,
-    "_blank"
-  );
-};
+import { abrirWhatsApp } from "@/lib/whatsapp";
 
 export default function Hero() {
   return (
-    <section className="bg-pink-50">
+    <section id="inicio" className="bg-pink-50 scroll-mt-24">
       <div className="container mx-auto px-6 pt-8 pb-8">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
@@ -75,7 +66,7 @@ export default function Hero() {
 
               </button>
 
-              <button className="flex items-center gap-2 border border-green-500 text-green-600 px-8 py-4 rounded-xl text-lg hover:bg-green-50">
+              <button onClick={abrirWhatsApp} className="flex items-center gap-2 border border-green-500 text-green-600 px-8 py-4 rounded-xl text-lg hover:bg-green-50">
                 <FaWhatsapp />
                 WhatsApp
               </button>

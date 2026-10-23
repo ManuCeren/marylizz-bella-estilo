@@ -12,7 +12,7 @@ export default function GaleriaSection() {
     );
 
     return (
-        <section className="py-20 bg-white">
+        <section id="galeria" className="py-20 bg-white scroll-mt-24">
             <div className="container mx-auto px-6">
                 <SectionTitle
                     titulo="Nuestros Trabajos"

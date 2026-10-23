@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 
 export default function ProductosSection() {
   return (
-    <section className="py-20 bg-pink-50">
+    <section id="productos" className="py-20 bg-pink-50 scroll-mt-24">
       <div className="container mx-auto px-6">
 
         <SectionTitle
