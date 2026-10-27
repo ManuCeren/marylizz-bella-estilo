@@ -18,4 +18,10 @@ export function crearEnlaceProducto(nombre: string, precio: number) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     mensajeProducto
   )}`;
+  
+}
+export function crearEnlacePromocion(titulo: string) {
+  const mensaje = `Hola Marylizz Bella Estilo, me interesa la promoción de ${titulo}. ¿Podrían brindarme más información?`;
+
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensaje)}`;
 }

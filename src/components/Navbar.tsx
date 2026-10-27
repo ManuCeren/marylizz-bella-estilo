@@ -9,7 +9,7 @@ const opciones = [
   { nombre: "Servicios", href: "#servicios" },
   { nombre: "Productos", href: "#productos" },
   { nombre: "Galería", href: "#galeria" },
-  { nombre: "Promociones", href: null },
+  { nombre: "Promociones", href: "#promociones" },
   { nombre: "Contacto", href: null },
 ];
 
