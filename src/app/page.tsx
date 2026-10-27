@@ -4,6 +4,7 @@ import ServiciosSection from "@/components/ServiciosSection";
 import ProductosSection from "@/components/ProductosSection";
 import AntesDespuesSection from "@/components/AntesDespuesSection";
 import GaleriaSection from "@/components/GaleriaSection";
+import PromocionSection from "@/components/PromocionSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <AntesDespuesSection />
         <GaleriaSection />
         <ProductosSection />
+        <PromocionSection />
       </main>
       <Footer />
     </>
