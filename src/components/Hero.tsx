@@ -1,15 +1,14 @@
-"use client";  
-
 import { GiLipstick, GiEyelashes } from "react-icons/gi";
 import { PiHairDryer } from "react-icons/pi";
 import { FaWhatsapp } from "react-icons/fa";
-import { abrirWhatsApp } from "@/lib/whatsapp";
+import { enlaceWhatsAppCita } from "@/lib/whatsapp";
 
 export default function Hero() {
   return (
     <section id="inicio" className="bg-pink-50 scroll-mt-24">
       <div className="container mx-auto px-6 pt-8 pb-8">
         <div className="grid md:grid-cols-2 gap-8 items-center">
+
           <div>
             <img
               src="/images/logo.png"
@@ -32,6 +31,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-8 mb-8 text-gray-800">
+
               <div className="flex items-center gap-2">
                 <PiHairDryer className="text-pink-600 text-2xl" />
                 <span>Alisados</span>
@@ -55,21 +55,30 @@ export default function Hero() {
                 />
                 <span>Pedicura Spa</span>
               </div>
+
             </div>
 
             <div className="flex gap-5 flex-wrap">
-              <button
-                onClick={abrirWhatsApp}
+
+              <a
+                href={enlaceWhatsAppCita}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-4 rounded-xl text-lg"
-                >
+              >
                 Agendar Cita
+              </a>
 
-              </button>
-
-              <button onClick={abrirWhatsApp} className="flex items-center gap-2 border border-green-500 text-green-600 px-8 py-4 rounded-xl text-lg hover:bg-green-50">
+              <a
+                href={enlaceWhatsAppCita}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 border border-green-500 text-green-600 px-8 py-4 rounded-xl text-lg hover:bg-green-50"
+              >
                 <FaWhatsapp />
                 WhatsApp
-              </button>
+              </a>
+
             </div>
           </div>
 
@@ -80,8 +89,9 @@ export default function Hero() {
               className="w-full max-w-sm rounded-3xl object-cover shadow-xl"
             />
           </div>
+
         </div>
       </div>
-    </section >
+    </section>
   );
 }

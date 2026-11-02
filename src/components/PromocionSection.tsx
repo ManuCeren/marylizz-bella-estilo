@@ -8,6 +8,11 @@ import PromocionCard from "./PromocionCard";
 import SectionTitle from "./SectionTitle";
 
 export default function PromocionesSection() {
+  // Mostrar únicamente las promociones que tengan activa: true
+  const promocionesActivas = promociones.filter(
+    (promocion) => promocion.activa
+  );
+
   const [promocionSeleccionada, setPromocionSeleccionada] = useState<
     number | null
   >(null);
@@ -25,7 +30,7 @@ export default function PromocionesSection() {
           />
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {promociones.map((promocion, index) => (
+            {promocionesActivas.map((promocion, index) => (
               <PromocionCard
                 key={promocion.id}
                 titulo={promocion.titulo}
@@ -59,13 +64,13 @@ export default function PromocionesSection() {
             onClick={(event) => event.stopPropagation()}
           >
             <img
-              src={promociones[promocionSeleccionada].imagen}
-              alt={promociones[promocionSeleccionada].titulo}
+              src={promocionesActivas[promocionSeleccionada].imagen}
+              alt={promocionesActivas[promocionSeleccionada].titulo}
               className="max-w-full max-h-[80vh] object-contain rounded-2xl shadow-2xl"
             />
 
             <h3 className="text-white text-xl md:text-2xl font-bold text-center mt-4">
-              {promociones[promocionSeleccionada].titulo}
+              {promocionesActivas[promocionSeleccionada].titulo}
             </h3>
           </div>
         </div>
