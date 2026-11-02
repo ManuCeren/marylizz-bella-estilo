@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 
 import SectionTitle from "./SectionTitle";
+import { enlaceWhatsAppCita } from "@/lib/whatsapp";
 
 export default function ContactoSection() {
   return (
@@ -124,7 +125,7 @@ export default function ContactoSection() {
             <div className="space-y-4">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/50379699364"
+                href={enlaceWhatsAppCita}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-4 rounded-xl transition"
