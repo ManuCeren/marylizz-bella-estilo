@@ -10,7 +10,7 @@ const opciones = [
   { nombre: "Productos", href: "#productos" },
   { nombre: "Galería", href: "#galeria" },
   { nombre: "Promociones", href: "#promociones" },
-  { nombre: "Contacto", href: null },
+  { nombre: "Contacto", href: "#contacto" },
 ];
 
 export default function Navbar() {
