@@ -5,6 +5,7 @@ import ProductosSection from "@/components/ProductosSection";
 import AntesDespuesSection from "@/components/AntesDespuesSection";
 import GaleriaSection from "@/components/GaleriaSection";
 import PromocionSection from "@/components/PromocionSection";
+import ContactoSection from "@/components/ContactoSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <GaleriaSection />
         <ProductosSection />
         <PromocionSection />
+        <ContactoSection />
       </main>
       <Footer />
     </>
