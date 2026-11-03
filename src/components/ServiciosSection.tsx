@@ -3,6 +3,9 @@ import ServiceCard from "./ServiceCard";
 import SectionTitle from "./SectionTitle";
 
 export default function ServiciosSection() {
+  const serviciosActivos = servicios.filter(
+    (servicio) => servicio.activa
+  );
   return (
     <section id="servicios" className="py-20 bg-white scroll-mt-24">
       <div className="container mx-auto px-6">
@@ -12,7 +15,7 @@ export default function ServiciosSection() {
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {servicios.map((servicio) => (
+          {serviciosActivos.map((servicio) => (
             <ServiceCard
               key={servicio.id}
               nombre={servicio.nombre}
