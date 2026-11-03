@@ -15,7 +15,8 @@ export const servicios = [
     descripcion: "Transforma tu cabello con un acabado liso, sedoso y de larga duración.",
     precio: 40,
     duracion: 180,
-    imagen: "/images/servicios/alisados/Alisado2.jpeg"
+    imagen: "/images/servicios/alisados/Alisado2.jpeg",
+    activa:  true
   },
   {
     id: 3,
@@ -24,7 +25,8 @@ export const servicios = [
     descripcion: "Renueva tu imagen con un corte moderno adaptado a tu personalidad.",
     precio: 5,
     duracion: 30,
-    imagen: "/images/servicios/cortes/corte-V.jpg"
+    imagen: "/images/servicios/cortes/corte-V.jpg",
+    activa:  true
   },
   {
     id: 4,
@@ -33,7 +35,8 @@ export const servicios = [
     descripcion: "Dale vida a tu cabello con colores vibrantes y un acabado profesional.",
     precio: 35,
     duracion: 150,
-    imagen: "/images/servicios/tintes/Aplicacion-tinte.jpeg"
+    imagen: "/images/servicios/tintes/Aplicacion-tinte.jpeg",
+    activa:  true
   },
   {
     id: 5,
@@ -42,7 +45,8 @@ export const servicios = [
     descripcion: "Aporta luminosidad y dimensión a tu cabello con mechas clásicas.",
     precio: 45,
     duracion: 180,
-    imagen: "/images/servicios/rayos/Mechas-tradicionales.jpeg"
+    imagen: "/images/servicios/rayos/Mechas-tradicionales.jpeg",
+    activa:  true
   },
   {
     id: 6,
@@ -51,7 +55,8 @@ export const servicios = [
     descripcion: "Efecto degradado natural para un look moderno y elegante.",
     precio: 75,
     duracion: 240,
-    imagen: "/images/servicios/rayos/Mechas.jpeg"
+    imagen: "/images/servicios/rayos/Mechas.jpeg",
+    activa:  true
   },
   {
     id: 7,
@@ -60,7 +65,8 @@ export const servicios = [
     descripcion: "Ilumina tu cabello con reflejos que resaltan tu estilo.",
     precio: 35,
     duracion: 150,
-    imagen: "/images/servicios/rayos/Rayos.jpeg"
+    imagen: "/images/servicios/rayos/Rayos.jpeg",
+    activa:  true
   },
   {
     id: 8,
@@ -69,7 +75,8 @@ export const servicios = [
     descripcion: "Cabello más liso, brillante y protegido gracias al tratamiento con proteína.",
     precio: 10,
     duracion: 60,
-    imagen: "/images/servicios/alisados/Alisado3.jpeg"
+    imagen: "/images/servicios/alisados/Alisado3.jpeg",
+    activa:  true
   },
   {
     id: 9,
@@ -78,7 +85,8 @@ export const servicios = [
     descripcion: "Limpieza rápida y revitalizante para mantener tu cabello fresco y saludable.",
     precio: 15,
     duracion: 30,
-    imagen: "/images/servicios/cortes/Lavado-express.jpeg"
+    imagen: "/images/servicios/cortes/Lavado-express.jpeg",
+    activa:  true
   },
   {
     id: 10,
@@ -87,7 +95,8 @@ export const servicios = [
     descripcion: "Peinados para eventos especiales, celebraciones o tu día a día.",
     precio: 18,
     duracion: 60,
-    imagen: "/images/galerias/peinados.jpg"
+    imagen: "/images/galerias/peinados.jpg",
+    activa:  true
   },
   {
     id: 11,
@@ -96,7 +105,8 @@ export const servicios = [
     descripcion: "Consigue un look elegante y natural con ondas definidas y duraderas.",
     precio: 18,
     duracion: 60,
-    imagen: "/images/servicios/cortes/Ondas.jpeg"
+    imagen: "/images/servicios/cortes/Ondas.jpeg",
+    activa:  true
   },
 
   {
@@ -106,7 +116,8 @@ export const servicios = [
     descripcion: "Realza tu belleza con maquillaje profesional para cualquier ocasión.",
     precio: 10,
     duracion: 60,
-    imagen: "/images/servicios/maquillaje/Maquillaje-mas-diseño-de-cejas.jpeg"
+    imagen: "/images/servicios/maquillaje/Maquillaje-mas-diseño-de-cejas.jpeg",
+    activa:  true
   },
 
   {
@@ -116,7 +127,8 @@ export const servicios = [
     descripcion: "Extensiones naturales que aportan longitud y definición a tu mirada.",
     precio: 20,
     duracion: 120,
-    imagen: "/images/servicios/pestanas/Pelo-a-Pelo.jpeg"
+    imagen: "/images/servicios/pestanas/Pelo-a-Pelo.jpeg",
+    activa:  true
   },
   {
     id: 14,
@@ -125,7 +137,8 @@ export const servicios = [
     descripcion: "Combinación perfecta entre volumen y naturalidad.",
     precio: 25,
     duracion: 120,
-    imagen: "/images/servicios/pestanas/Pestanas-hibridas.jpeg"
+    imagen: "/images/servicios/pestanas/Pestanas-hibridas.jpeg",
+    activa:  true
   },
   {
     id: 15,
@@ -134,7 +147,8 @@ export const servicios = [
     descripcion: "Mayor densidad y volumen para una mirada impactante.",
     precio: 30,
     duracion: 120,
-    imagen: "/images/servicios/pestanas/volumen-Ruso.jpeg"
+    imagen: "/images/servicios/pestanas/volumen-Ruso.jpeg",
+    activa:  true
   },
   {
     id: 16,
@@ -143,7 +157,8 @@ export const servicios = [
     descripcion: "Máximo volumen y definición para resaltar tus ojos.",
     precio: 35,
     duracion: 150,
-    imagen: "/images/servicios/pestanas/full-volumen.jpeg"
+    imagen: "/images/servicios/pestanas/full-volumen.jpeg",
+    activa:  true
   },
   {
     id: 17,
@@ -152,7 +167,8 @@ export const servicios = [
     descripcion: "Eleva y curva tus pestañas naturales sin necesidad de extensiones.",
     precio: 20,
     duracion: 90,
-    imagen: "/images/servicios/pestanas/lifting.jpeg"
+    imagen: "/images/servicios/pestanas/lifting.jpeg",
+    activa:  true
   },
 
   {
@@ -162,7 +178,8 @@ export const servicios = [
     descripcion: "Define y rellena tus cejas con un acabado natural y duradero.",
     precio: 15,
     duracion: 60,
-    imagen: "/images/servicios/cejas/Pigmentacion-con-Enna.jpeg"
+    imagen: "/images/servicios/cejas/Pigmentacion-con-Enna.jpeg",
+    activa:  true
   },
   {
     id: 19,
@@ -171,7 +188,8 @@ export const servicios = [
     descripcion: "Ordena y fija tus cejas para lograr un efecto más uniforme y estilizado.",
     precio: 18,
     duracion: 60,
-    imagen: "/images/servicios/cejas/laminado.jpeg"
+    imagen: "/images/servicios/cejas/laminado.jpeg",
+    activa:  true
   },
 
   {
@@ -181,7 +199,8 @@ export const servicios = [
     descripcion: "Relaja y cuida tus pies con limpieza, exfoliación e hidratación profunda.",
     precio: 15,
     duracion: 60,
-    imagen: "/images/servicios/pedicura/pedicuraSPA.jpeg"
+    imagen: "/images/servicios/pedicura/pedicuraSPA.jpeg",
+    activa:  false
   },
   {
     id: 21,
@@ -190,6 +209,7 @@ export const servicios = [
     descripcion: "Uñas impecables con brillo duradero y acabado profesional.",
     precio: 8,
     duracion: 45,
-    imagen: "/images/servicios/pedicura/esmaltado-semipermanente.jpeg"
+    imagen: "/images/servicios/pedicura/esmaltado-semipermanente.jpeg",
+    activa:  false
   }
 ];
